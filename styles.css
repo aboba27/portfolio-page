@@ -15,6 +15,31 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9800; 
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline; 
+}
+
 a {
     color: #4CAF50;
 }
