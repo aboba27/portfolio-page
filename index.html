@@ -1,41 +1,280 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mein Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <header>
-        <h1>Abdallah Abobaker</h1>
+      <div class="nav-items">
+        <a href="#about-me">Über Mich</a>
+        <a href="#experience">Lebenslauf</a>
+        <a href="#skills">Meine Fähigkeiten</a>
+      </div>
     </header>
-    
-    <section>
-        <h2>Über mich</h2>
-        <p> Abdallah ist mein Name. Ich bin 25 Jahre alt und habe vielfältige kulturelle Wurzeln. Geboren wurde ich in Tripolis, der Hauptstadt Libyens.
-            Schon mit einem Jahr kam ich in die Schweiz. Bern, eine Stadt voller Kultur und Geschichte, wurde mein zuhause. Dort verlebte ich prägende Jahre und genoss eine Bildung, die mich förderte.
-            Neben dem Studium und der Arbeit gebe ich mich meinen Hobbys hin. Kampfsport hilft mir, Stress abzubauen und fördert meine Zielstrebigkeit.
-            Reisen erweitert meinen Blick und meine Neugier auf neue Kulturen. Familie bedeutet mir viel. Besonders geniesse ich die Zeit mit meinen Nichten. Diese Momente sind meine Quelle der Kraft und Inspiration.
-             </p>
+
+    <section class="content" id="about-me">
+      <h1 class="content-title">Abdallah Abobaker</h1>
+      <p class="content-desc">
+        Abdallah ist mein Name. Ich bin 25 Jahre alt und habe vielfältige
+        kulturelle Wurzeln. Geboren wurde ich in Tripolis, der Hauptstadt
+        Libyens. Schon mit einem Jahr kam ich in die Schweiz. Bern, eine Stadt
+        voller Kultur und Geschichte, wurde mein zuhause. Dort erlebte ich
+        prägende Jahre und genoss eine Bildung, die mich förderte. Neben dem
+        Studium und der Arbeit gebe ich mich meinen Hobbys hin. Kampfsport hilft
+        mir, Stress abzubauen und fördert meine Zielstrebigkeit. Reisen
+        erweitert meinen Blick und meine Neugier auf neue Kulturen. Familie
+        bedeutet mir viel. Besonders geniesse ich die Zeit mit meinen Nichten.
+        Diese Momente sind meine Quelle der Kraft und Inspiration.
+      </p>
     </section>
-    
-    <section>
-        <h2>Berufserfahrung</h2>
-       
-        <p> An der Wirtschaftsmittelschule in La Neuveville in der Französischschweiz, festigte ich mein Wissen in Wirtschaft.
-            Mein Französisch verbesserte sich dort erheblich. Der Wunsch nach mehr Wissen trieb mich zur Berufsmaturitätsschule.
-            Danach begann ich an der Berner Fachhochschule zu studieren. Ich studiere Vollzeit und arbeite gleichzeitig flexibel.
-            Meine Einsätze liegen oft im IT-Bereich. Sie bringen mir wertvolle Erfahrungen und fördern meine Fähigkeiten.
-        </p>
+
+    <section class="content" id="experience">
+      <h2>Berufserfahrung</h2>
+
+      <p>
+        An der Wirtschaftsmittelschule in La Neuveville in der
+        Französischschweiz, festigte ich mein Wissen in Wirtschaft. Mein
+        Französisch verbesserte sich dort erheblich. Der Wunsch nach mehr Wissen
+        trieb mich zur Berufsmaturitätsschule. Danach begann ich an der Berner
+        Fachhochschule zu studieren. Ich studiere Vollzeit und arbeite
+        gleichzeitig flexibel. Meine Einsätze liegen oft im IT-Bereich. Sie
+        bringen mir wertvolle Erfahrungen und fördern meine Fähigkeiten.
+      </p>
     </section>
-    
+
+    <section class="content" id="skills">
+      <h2>Meine Fähigkeiten</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <div class="loader-container">
+            <svg class="loader-svg" viewBox="0 0 36 36">
+              <path
+                class="loader-circle-bg"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#000"
+                stroke-width="1.5"
+              ></path>
+              <path
+                class="loader-circle"
+                stroke-dasharray="100, 100"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="white"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+            <div class="counter" data-percentage="80">0%</div>
+          </div>
+          <h3 class="skill-title">HTML</h3>
+        </div>
+        <div class="skill">
+          <div class="loader-container">
+            <svg class="loader-svg" viewBox="0 0 36 36">
+              <path
+                class="loader-circle-bg"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#000"
+                stroke-width="1.5"
+              ></path>
+              <path
+                class="loader-circle"
+                stroke-dasharray="100, 100"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="white"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+            <div class="counter" data-percentage="55">0%</div>
+          </div>
+          <h3 class="skill-title">CSS</h3>
+        </div>
+        <div class="skill">
+          <div class="loader-container">
+            <svg class="loader-svg" viewBox="0 0 36 36">
+              <path
+                class="loader-circle-bg"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#000"
+                stroke-width="1.5"
+              ></path>
+              <path
+                class="loader-circle"
+                stroke-dasharray="100, 100"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="white"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+            <div class="counter" data-percentage="35">0%</div>
+          </div>
+          <h3 class="skill-title">JS</h3>
+        </div>
+        <div class="skill">
+          <div class="loader-container">
+            <svg class="loader-svg" viewBox="0 0 36 36">
+              <path
+                class="loader-circle-bg"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#000"
+                stroke-width="1.5"
+              ></path>
+              <path
+                class="loader-circle"
+                stroke-dasharray="100, 100"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="white"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+            <div class="counter" data-percentage="100">0%</div>
+          </div>
+          <h3 class="skill-title">ChatGPT</h3>
+        </div>
+        <div class="skill">
+          <div class="loader-container">
+            <svg class="loader-svg" viewBox="0 0 36 36">
+              <path
+                class="loader-circle-bg"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#000"
+                stroke-width="1.5"
+              ></path>
+              <path
+                class="loader-circle"
+                stroke-dasharray="100, 100"
+                d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="white"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+            <div class="counter" data-percentage="100">0%</div>
+          </div>
+          <h3 class="skill-title">Office</h3>
+        </div>
+      </div>
+    </section>
+
     <footer>
-        <p>Kontakt: <a href="abdallah.abobaker21@gmail.com">abdallah.abobaker21@gmail.com</a></p>
-        <ul>
-            <li><a href="https://www.instagram.com/_ab.elhj/" target="_blank" rel="noopener noreferrer">_ab.elhj</a></li>
-            <li><a href="https://www.linkedin.com/in/abdallah-abobaker-88064b233?originalSubdomain=ch" target="_blank" rel="noopener noreferrer">Abdallah Abobaker</a></li>
-        </ul>
+      <div class="container">
+        <div class="left">
+          <h2 class="socials">Socials:</h2>
+          <div class="img-container">
+            <a href="https://www.instagram.com/_ab.elhj/">
+              <img src="img/icons8-instagram-50.png" alt="instagram" />
+            </a>
+            <a href="abdallah.abobaker21@gmail.com">
+              <img src="img/icons8-e-mail-50.png" alt="e-mail" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdallah-abobaker-88064b233?originalSubdomain=ch"
+            >
+              <img src="img/icons8-linkedin.svg" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+        <div class="right">
+          <p class="created-by">Created by Abdallah Abobaker</p>
+        </div>
+      </div>
     </footer>
-</body>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", () => {
+          if (window.pageYOffset > 0) {
+            // Page is scrolled down
+            header.classList.add("header-hidden");
+          } else {
+            // Scrolled back to the top
+            header.classList.remove("header-hidden");
+          }
+        });
+      });
+
+      // Skills loader
+      document.addEventListener("DOMContentLoaded", function () {
+        const skills = document.querySelectorAll(".skill");
+
+        skills.forEach((skill) => {
+          const counter = skill.querySelector(".counter");
+          const percentage = parseInt(counter.dataset.percentage, 10);
+          const loaderCircle = skill.querySelector(".loader-circle");
+          let count = 0;
+
+          // Trigger a reflow/repaint to restart the animation
+          loaderCircle.getBoundingClientRect();
+
+          // Animate the counter
+          const interval = setInterval(() => {
+            counter.textContent = `${count}%`;
+            if (count === percentage) {
+              clearInterval(interval);
+            }
+            count++;
+          }, 12);
+
+          // Animate the loader circle
+          const circumference = 100; // The full stroke-dasharray length
+          loaderCircle.style.strokeDashoffset =
+            circumference - (percentage / 100) * circumference;
+        });
+      });
+    </script>
+  </body>
 </html>
